@@ -33,6 +33,7 @@ nav{
     padding:5px 15px;
     color:white;
     border:none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container-topbar-rigth{
@@ -61,31 +62,43 @@ top:0;
     margin:0 auto;
     width:85%;
     padding-top:50px;
+    min-width: 1300px; /*per non far spostare l'img al restingimento pagina*/
 }
 
 .container-jumbotron>h1{
-    font-size:71px;
+    font-size:75px;
     padding-bottom: 30px;
 }
 
 .container-jumbotron p{
     padding-bottom: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .container-text{
     display: inline-block;
-    border:1px solid red;
 }
 
+.container-text>p:last-of-type{
+    padding-top:10px;
+    font-size: 12px;
+}
+
+.container-text>button{
+    padding:5px 20px;
+}
 
 #container-img-jumbotron{
-    border: 2px solid black;
     display: inline-block;
     vertical-align: top;
-    padding-left: 60px;
+    padding-left: 80px;
 }
 
 #container-img-jumbotron>img{
     height: calc(600px - 200px);
+}
+
+#font-awesome{
+    padding-top:5px;
+    font-size: 35px;
 }
