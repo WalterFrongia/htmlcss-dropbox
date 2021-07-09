@@ -3,3 +3,33 @@
     margin:0;
     box-sizing: border-box;
 }
+
+.top-bar{
+    border:2px solid black;
+    position:relative;
+}
+
+.container-topbar-left{
+    border:2px solid black;
+}
+
+.container-topbar-left>li{
+    display: inline-block;
+    padding:5px 10px;
+}
+.container-topbar-rigth{
+    border: 2px solid red;
+    position:absolute;
+    right: 0;
+    top:0;
+}
+
+.container-topbar-rigth>li{
+    display: inline-block;
+    padding:5px 10px;
+}
+
+#logo-top-bar{
+    display: inline-block;
+    vertical-align: middle;
+}
