@@ -17,6 +17,7 @@ header{
 nav{
     padding:10px 20px;
 }
+
 .top-bar{
     position:relative;
 }    
@@ -52,7 +53,7 @@ top:0;
 }    
 
 #jumbotron{
-    height:600px;
+    height:620px;
     background-color:rgb(175, 203, 236);
 }
 
@@ -63,10 +64,28 @@ top:0;
 }
 
 .container-jumbotron>h1{
-    font-size:70px;
+    font-size:71px;
     padding-bottom: 30px;
 }
 
 .container-jumbotron p{
     padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.container-text{
+    display: inline-block;
+    border:1px solid red;
+}
+
+
+#container-img-jumbotron{
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 60px;
+}
+
+#container-img-jumbotron>img{
+    height: calc(600px - 200px);
 }
