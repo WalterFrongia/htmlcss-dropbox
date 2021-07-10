@@ -18,6 +18,10 @@ nav{
     padding:10px 20px;
 }
 
+section{
+    min-width: 1300px;
+}
+
 .top-bar{
     position:relative;
 }    
@@ -102,3 +106,25 @@ top:0;
     padding-top:5px;
     font-size: 35px;
 }
+
+.container-margin-auto{
+    margin:0 auto;
+    width:60%;
+    border:2px solid black;
+    height: 800px;
+}
+
+.first-main-section{
+    padding:150px 20px 0 20px;
+}
+
+.first-main-section>h2{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.first-main-section span{
+    padding-right: 20px;
+}
+
+
