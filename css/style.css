@@ -147,6 +147,10 @@ top:0;
     padding:5px 0;
 }
 
+.column-header i{
+    padding-right: 10px;
+}
+
 .column-main, .column-footer{
     padding:0 20px; /*Il padding applicato a questa classe perchè metterlo nel float metterebbe padding laterale anche all'header column*/
 }
@@ -188,16 +192,29 @@ hr{
 .column-footer>h4{
     padding: 20px 0;
 }
+
 .column-footer>li{
-    list-style-type: none;
+    list-style-type:none;
     font-size: 13px;
     padding: 10px 0;
-    display: inline-block;
-    vertical-align: middle;
+    display:inline-block;
+    line-height: 15px;
 }
 
 .column-footer i{
-    font-size: 15px;
     color:rgb(0, 150, 250);
     padding-right: 5px;
+    vertical-align: middle;
+    line-height: 10px;
 }
+
+.column-footer>p{
+    padding-right: 10px;
+}
+
+.column-footer>li>div{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 20px;
+}
+
