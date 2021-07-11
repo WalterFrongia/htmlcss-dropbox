@@ -106,12 +106,12 @@ top:0;
 
 .container-margin-auto{
     margin:0 auto;
-    width:60%;
+    width:56%;
     height: 1500px;
 }
 
 .first-main-section{
-    padding:150px 20px 0 20px;
+    padding-top:200px;
 }
 
 .first-main-section>h2{
@@ -135,11 +135,11 @@ top:0;
 }
 
 .fl{ 
-    width:350px;
+    width:340px;
     height:950px;
     border:2px solid rgb(172, 172, 172);
     display: inline-block;
-    margin:0 40px 0 10px;
+    margin-right: 50px;
     vertical-align: top; /*per allineare i float*/
 }
 
@@ -237,3 +237,37 @@ hr{
     line-height: 20px;
 }
 
+.second-main-section{
+    height: 240px;
+    border:2px solid rgb(172, 172, 172);
+    margin-top: 50px;
+    position: relative;
+}
+
+.header-second-main-section{
+    text-align: center;
+    padding:10px 0;
+    border-bottom: 2px solid rgb(172, 172, 172);;
+}
+.container-content-second-main-section{
+    padding:20px 10px 10px 10px;
+    height: 300px;
+    position: relative;
+}
+
+.container-content-second-main-section>h3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.container-content-second-main-section>p{
+    padding-bottom: 30px;
+}
+
+.container-content-second-main-section button{
+    position:absolute;
+    top:20px;
+    right: 20px;
+    padding: 5px 40px;
+    font-size: 15px;
+}
