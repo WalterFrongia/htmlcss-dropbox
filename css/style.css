@@ -111,7 +111,6 @@ top:0;
 .container-margin-auto{
     margin:0 auto;
     width:56%;
-    height: 1500px;
 }
 
 .first-main-section{
@@ -316,11 +315,11 @@ hr{
     font-weight:800;
 }
 
-.container-row{
+.row-container{
     height: 1000px;
 }
 
-.container-row>h2{
+.row-container>h2{
     font-size:45px;
     font-weight: 900;
     padding-bottom: 40px;
@@ -335,7 +334,6 @@ hr{
 .container-img-row{
     height: 200px;
     width: 300px;
-    background-image: url(../img/business-feature-switching-tools.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -354,31 +352,24 @@ hr{
 /*Background images row*/
 .bg-one-row{
     background-image: url(../img/business-feature-switching-tools.png);
-    background-size: contain;
-    background-position: center;
 }
+
 .bg-two-row{
     background-image: url(../img/business-feature-coordinate-it.png);
-    background-size: contain;
-    background-position: center;
 }
+
 .bg-three-row{
     background-image: url(../img/business-feature-multi-device.png);
-    background-size: contain;
-    background-position: center;
 }
+
 .bg-four-row{
     background-image: url(../img/business-feature-integrations-it.png);
-    background-size: contain;
-    background-position: center;
 }
+
 .bg-five-row{
     background-image: url(../img/business-feature-send-files-it.png);
-    background-size: contain;
-    background-position: center;
 }
+
 .bg-six-row{
     background-image: url(../img/business-feature-security.png);
-    background-size: contain;
-    background-position: center;
 }
