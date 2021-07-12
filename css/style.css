@@ -373,3 +373,33 @@ hr{
 .bg-six-row{
     background-image: url(../img/business-feature-security.png);
 }
+
+.title-team-use-dropbox{
+    padding-top:100px;
+}
+
+.title-team-use-dropbox>a{
+    padding: 20px 0 40px 0;
+    color:rgb(0, 150, 250);
+    text-decoration: underline;
+}
+
+.container-team-use-dropbox{
+    height: 500px;
+    border:1px solid red;
+}
+
+.boxes-container-left{
+    height:500px;
+    width:30%;
+    border: 1px solid black;
+}
+
+.box{
+    height: 100px;
+    width:100px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 0;
+    padding:0;
+}
