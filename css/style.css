@@ -11,11 +11,15 @@ body{
 }
 
 header{
-    min-width: 1300px;
+    min-width: 2000px;
 }
 
 nav{
     padding:10px 20px;
+}
+
+main{
+    min-width: 2000px;
 }
 
 .top-bar{
@@ -270,4 +274,44 @@ hr{
     right: 20px;
     padding: 5px 40px;
     font-size: 15px;
+}
+
+.third-main-section{
+    height: 700px;
+    position:relative;
+    padding-top: 100px;
+}
+
+.container-img-partner-dropbox{
+    height: 500px;
+    width:600px;
+    background-image: url(../img/partner.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.container-text-partner-dropbox{
+    display: inline-block;
+    position:absolute;
+    right:20px;
+    top:140px;
+}
+
+.container-text-partner-dropbox>h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.container-text-partner-dropbox>p{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.container-text-partner-dropbox>button{
+    font-size: 15px;
+    padding:5px 20px;
+    background-color: white;
+    color:black;
+    font-family:'Open Sans', sans-serif;
+    font-weight:800;
 }
