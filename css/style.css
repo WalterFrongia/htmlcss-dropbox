@@ -539,3 +539,30 @@ top:0;
     height: 2px;
     border:none;
 }
+
+.footer-container{
+    background-color: black;
+    height: 600px;
+}
+
+.margin-footer{
+    margin:0 auto;
+    width:70%;
+    height: 600px;
+    border:2px solid red;
+    padding-top: 100px;
+}
+
+.float-footer-container>h4{
+    font-size: 30px;
+    color:white;
+    padding-bottom: 20px;
+}
+
+.float-footer-container>li{
+    font-size: 15px;
+    list-style-type: none;
+    color:white;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
