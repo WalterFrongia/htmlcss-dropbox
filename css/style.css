@@ -482,7 +482,7 @@ top:0;
 .trattino{ /*devo salire più sopra questa regola*/
     width:50px;
     height: 2px;
-    background-color: rgb(196, 194, 194);
+    background-color:rgb(196, 194, 194);
 }
 
 .container-text-center>p{
@@ -516,6 +516,9 @@ top:0;
     top:150px;
 }
 
+.answers-main-section{
+    margin-bottom:100px;
+}
 .answers-main-section>h4{
     font-size: 30px;
     padding:40px 0 50px 0;
@@ -549,8 +552,8 @@ top:0;
     margin:0 auto;
     width:70%;
     height: 600px;
-    border:2px solid red;
     padding-top: 100px;
+    position: relative;
 }
 
 .float-footer-container>h4{
@@ -560,9 +563,32 @@ top:0;
 }
 
 .float-footer-container>li{
-    font-size: 15px;
+    font-size: 18px;
     list-style-type: none;
     color:white;
     padding-bottom: 10px;
     font-weight: 200;
+}
+
+.float-footer-container{
+    width: 20%;
+    height: 250px;
+}
+
+.trattino-footer{
+    background-color:rgb(196, 194, 194);
+    border:none;
+    height: 2px;
+    width:150px;
+    position:absolute;
+    left:0;
+    bottom:160px;
+}
+
+#span-footer{
+    color:rgb(182, 182, 182);
+    position:absolute;
+    left:0;
+    bottom:100px;
+    font-size:18px;
 }
