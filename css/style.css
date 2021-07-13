@@ -494,14 +494,15 @@ top:0;
 }
 
 .footer-fourth-main-section{
-    height: 400px;
+    height: 500px;
     background-color:rgb(178, 212, 226);
+    margin-bottom:50px;
 }
 
 .container-footer-fourth-main-section>h3{
     font-size:50px;
     font-weight: bolder 900;
-    color:rgb(78, 43, 158);
+    color:rgb(121, 3, 91);
     display: inline-block;
     padding-top: 150px;
 }
@@ -562,10 +563,15 @@ top:0;
     padding-bottom: 20px;
 }
 
+.float-footer-container li>a{
+    color:white;
+    text-decoration: none;
+    padding-left:0;
+}
+
 .float-footer-container>li{
     font-size: 18px;
     list-style-type: none;
-    color:white;
     padding-bottom: 10px;
     font-weight: 200;
 }
