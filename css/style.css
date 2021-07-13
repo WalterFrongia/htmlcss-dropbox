@@ -399,8 +399,13 @@ hr{
 }
 
 .container-float-fourth-main-section img{
-    width:100%;
+    width:60%;
     height: 80%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(292deg) brightness(105%) contrast(100%);
 }
 
 
@@ -427,10 +432,43 @@ hr{
     padding:40px 60px;
     position: relative;
 }
-
+/*Aggiunta di questo img perchè la scritta florida non andava bene con le caratteristiche generali delle altre img*/
 #img-box{
     height: 40px;
     width:200px;
     position:absolute;
-    top:90px;
+    top:130px;
+}
+
+.bg-green{
+    background-color: rgb(150, 241, 147);
+    border:15px solid rgb(188, 235, 184);
+}
+
+.bg-amaranto{
+    background-color: rgb(134, 0, 0);
+}
+
+.bg-blue{
+    background-color: rgb(40, 201, 250);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-different-red{
+    background-color: rgb(189, 3, 3);
+}
+
+.bg-different-blue{
+    background-color: rgb(135, 217, 250);
+}
+
+.bg-violet{
+    background-color: rgb(73, 1, 141);
+}
+
+.bg-yellow{
+    background-color: yellow;
 }
