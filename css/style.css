@@ -148,14 +148,14 @@ top:0;
 .left-column, .center-column, .right-column{ 
     width:340px;
     height:950px;
-    border:2px solid rgb(172, 172, 172);
+    border:1px solid rgb(172, 172, 172);
     display: inline-block;
     margin-right: 50px;
 }
 
 .column-header{
     text-align: center;
-    border-bottom:2px solid rgb(172, 172, 172);
+    border-bottom:1px solid rgb(172, 172, 172);
     padding:5px 0;
 }
 
@@ -249,7 +249,7 @@ hr{
 
 .second-main-section{
     height: 240px;
-    border:2px solid rgb(172, 172, 172);
+    border:1px solid rgb(172, 172, 172);
     margin-top: 50px;
     position: relative;
 }
@@ -257,7 +257,7 @@ hr{
 .header-second-main-section{
     text-align: center;
     padding:10px 0;
-    border-bottom: 2px solid rgb(172, 172, 172);;
+    border-bottom: 1px solid rgb(172, 172, 172);;
 }
 .container-content-second-main-section{
     padding:20px 10px 10px 10px;
@@ -393,7 +393,7 @@ hr{
 
 .container-float-fourth-main-section{
     height: 500px;
-    background-color: rgb(190, 188, 188);
+    background-color: rgb(245, 237, 237);
     margin-bottom: 100px;
     position:relative;
 }
@@ -412,18 +412,16 @@ hr{
 .container-boxes-left{
     height: 100%;
     width: 30%;
-    border:1px solid blue;
 }
 .container-text-center{
     width:40%;
     height: 100%;
-    border:1px solid red;
+    padding:40px;
 }
 
 .container-boxes-right{
     height: 100%;
     width:30%;
-    border:1px solid blue;
 }
 
 .box{
@@ -466,9 +464,31 @@ hr{
 }
 
 .bg-violet{
-    background-color: rgb(73, 1, 141);
+    background-color: rgb(33, 0, 151);
 }
 
 .bg-yellow{
     background-color: yellow;
+}
+
+#logo-design-container-text-box{
+    height: 50px;
+    background-image: url(../img/designit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.trattino{ /*devo salire più sopra questa regola*/
+    width:50px;
+    height: 2px;
+    background-color: rgb(196, 194, 194);
+}
+
+.container-text-center>p{
+    padding-top:40px;
+    font-weight: 600;
+}
+.container-text-center>p:nth-last-child(1){
+    padding-top:30px;
 }
