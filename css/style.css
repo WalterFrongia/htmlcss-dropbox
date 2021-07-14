@@ -455,8 +455,7 @@ top:0;
     filter: invert(99%) sepia(0%) saturate(2%) hue-rotate(292deg) brightness(105%) contrast(100%);
 }
 
-
-.container-boxes-left{
+.container-boxes-left, .container-boxes-right{
     height: 100%;
     width: 30%;
 }
@@ -464,11 +463,6 @@ top:0;
     width:40%;
     height: 100%;
     padding:40px;
-}
-
-.container-boxes-right{
-    height: 100%;
-    width:30%;
 }
 
 .box{
@@ -486,10 +480,11 @@ top:0;
 }
 
 .bg-green{
-    background-color: rgb(150, 241, 147);
+    background-color: rgb(154, 207, 152);
     border:15px solid rgb(188, 235, 184);
 }
 
+/*BG BOXES*/
 .bg-amaranto{
     background-color: rgb(134, 0, 0);
 }
@@ -517,7 +512,7 @@ top:0;
 .bg-yellow{
     background-color: yellow;
 }
-
+/*CONTENITORE CENTRALE CON TESTO*/
 #logo-design-container-text-box{
     height: 50px;
     background-image: url(../img/designit.svg);
@@ -540,13 +535,13 @@ top:0;
     padding-top:30px;
 }
 
-.footer-fourth-main-section{
+.footer-fifth-main-section{
     height: 500px;
     background-color:rgb(178, 212, 226);
     margin-bottom:50px;
 }
 
-.container-footer-fourth-main-section>h3{
+.container-footer-fifth-main-section>h3{
     font-size:50px;
     font-weight: bolder 900;
     color:rgb(121, 3, 91);
@@ -554,7 +549,7 @@ top:0;
     padding-top: 150px;
 }
 
-.container-footer-fourth-main-section>button{
+.container-footer-fifth-main-section>button{
     font-size: 18px;
     padding:10px 50px;
     border:none;
@@ -564,33 +559,36 @@ top:0;
     top:150px;
 }
 
-.answers-main-section{
+/*QUESTIONS SECTION*/
+.questions-main-section{
     margin-bottom:100px;
 }
-.answers-main-section>h4{
+
+.questions-main-section>h4{
     font-size: 30px;
     padding:40px 0 50px 0;
-    font-weight: 800;
+    font-weight: 900;
 }
 
-.answers-main-section>p{
+.questions-main-section>p{
     padding:40px 0 40px 0;
     display: inline-block;
     font-size: 18px;
     font-weight: 800;
 }
 
-.answers-main-section>i{
+.questions-main-section>i{
     padding-left: 530px;
     font-size: 30px;
 }
 
-.answers-main-section>hr{
+.questions-main-section>hr{
     background-color: rgb(247, 244, 244);
     height: 2px;
     border:none;
 }
 
+/*FOOTER*/
 .footer-container{
     background-color: black;
     height: 600px;
