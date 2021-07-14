@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
+/*REGOLE CSS GENERALI, APPLICATE A TAG SENZA CLASSI*/
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    min-width: 1300px;
+    min-width: 1500px;
 }
 
 header{
@@ -22,17 +23,10 @@ main{
     min-width: 2000px;
 }
 
-.top-bar{
-    position:relative;
-}    
-
-.container-topbar-left>li,a{
-    display: inline-block;
-    padding:5px 10px;
-    color: black;
-    text-decoration: none;
-}    
+/*CLASSE GENERALE PER APPLICARE QUESTA CLASSSE QUANDO SERVE*/
 .blu-button{
+    font-size: 18px;
+    font-weight: 400;
     background-color: rgb(0, 150, 250);
     padding:5px 15px;
     color:white;
@@ -40,98 +34,7 @@ main{
     font-family: 'Open Sans', sans-serif;
 }
 
-.container-topbar-rigth{
-position:absolute;
-right: 0;
-top:0;
-}    
-
-.container-topbar-rigth>li,a{
-    display: inline-block;
-    padding:5px 10px;
-    color:black;
-}    
-
-#logo-top-bar{
-    display: inline-block;
-    vertical-align: middle;
-}    
-
-#jumbotron{
-    height:900px;
-    background-color:rgb(175, 203, 236);
-}
-
-.container-jumbotron{
-    margin:0 auto;
-    width:85%;
-    padding-top:50px;
-    min-width: 1300px; /*per non far spostare l'img al restingimento pagina*/
-}
-
-.container-jumbotron>h1{
-    font-size:100px;
-    padding-bottom: 80px;
-}
-
-.container-jumbotron p{
-    padding-bottom: 20px;
-    font-size: 25px;
-}
-
-.container-text{
-    display: inline-block;
-}
-
-.container-text>p:last-of-type{
-    padding-top:10px;
-    font-size: 16px;
-}
-
-.container-text>button{
-    padding:5px 20px;
-    font-size: 20px;
-}
-
-#container-img-jumbotron{
-    display: inline-block;
-    vertical-align: top;
-    padding-left: 30px;
-}
-
-#container-img-jumbotron>img{
-    height:calc(770px - 200px);
-}
-
-#font-awesome{
-    padding-top:10px;
-    font-size: 35px;
-}
-
-.container-margin-auto{
-    margin:0 auto;
-    width:56%;
-    position:relative;
-}
-
-.first-main-section{
-    padding-top:200px;
-}
-
-.first-main-section>h2{
-    font-size: 40px;
-    padding-bottom: 50px;
-}
-
-.first-main-section span{
-    padding-right: 20px;
-}
-
-.container-float{
-    padding-top:30px;
-    min-width: 1300px;
-}
-
+/*REGOLE PER IL FLOAT, POSSONO ESSERE APPLICATE QUANDO VOGLIAMO UTILIZZARE I FLOAT*/
 .clearfix::after {
     content: "";
     clear: both;
@@ -146,16 +49,129 @@ top:0;
     float:right;
 }
 
+/*REGOLE PER HEADER, PARTE TOP-BAR, NAV*/
+.top-bar{
+    position:relative;
+}    
+
+.container-topbar-left,
+.container-topbar-rigth,
+li,a{
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    padding:5px 15px;
+    color: black;
+    text-decoration: none;
+}    
+
+.container-topbar-rigth{
+position:absolute;
+right: 0;
+top:0;
+}    
+
+#logo-top-bar{
+    display: inline-block;
+    vertical-align: middle;
+}    
+
+/*CLASSI PER LAVORARE SUL JUMBOTRON*/
+#jumbotron{
+    height:900px;
+    background-color:rgb(175, 203, 236);
+}
+
+.container-jumbotron{
+    margin:0 auto;
+    width:85%;
+    padding-top:50px;
+}
+
+.container-jumbotron>h1{
+    font-size:100px;
+    padding-bottom: 80px;
+    font-weight: 900;
+}
+
+.container-jumbotron p{
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container-text{
+    display: inline-block;
+}
+
+.container-text>p:last-of-type{
+    padding-top:10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-text>button{
+    padding:10px 20px;
+    font-size: 18px;
+}
+
+#container-img-jumbotron{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 60px;
+}
+
+#container-img-jumbotron>img{
+    height:calc(770px - 200px);
+}
+
+/*FONT JUMBOTRON*/
+#font-awesome{
+    padding-top:10px;
+    font-size:40px;
+}
+
+/*CONTENITORE CON I MARGINI PER SEGUIRE UN FLUSSO UGUALE NELLA PAGINA*/
+.container-margin-auto{
+    margin:0 auto;
+    width:56%;
+    position:relative;
+}
+
+/*INIZIO PRIMA SEZIONE NEL MAIN*/
+.first-main-section{
+    padding-top:200px;
+}
+
+.first-main-section>h2{
+    font-size: 40px;
+    padding-bottom: 50px;
+    font-weight: 900;
+}
+
+.first-main-section span{
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.container-float{
+    padding-top:30px;
+    min-width: 1300px;
+}
+
+/*STRUTTURA COLONNE DEL MAIN*/
 .left-column, .center-column, .right-column{ 
     width:340px;
-    height:950px;
+    height:1000px;
     border:1px solid rgb(172, 172, 172);
     margin-right: 30px;
 }
+
 .center-column{
     margin:0 100px;
 }
 
+/*STRUTTURA COLONNA INTERNA GENERALE (FIRST MAIN SECTION)*/
 .column-header{
     text-align: center;
     border-bottom:1px solid rgb(172, 172, 172);
@@ -179,11 +195,11 @@ top:0;
 }
 
 .column-main, .column-footer{
-    padding:0 20px; /*Il padding applicato a questa classe perchè metterlo nel float metterebbe padding laterale anche all'header column*/
+    padding:0 20px;
 }
 
 .column-main>h3{
-    font-size: 25px;
+    font-size: 30px;
     padding:20px 0 6px 0;
     font-weight: 900;
 }
@@ -194,52 +210,59 @@ top:0;
     font-weight: 600;
 }
 
-.grey-text{
-    color:rgb(184, 181, 181);
+/*PRICE*/
+.column-main>p:first-of-type{
+    font-size: 18px;
+    font-weight: 900;
+    padding-bottom:5px;
 }
 
-.column-main>p:first-of-type{
-    padding-bottom: 20px;
+.grey-text{
+    color:rgb(184, 181, 181);
+    font-size: 15px;
+}
+
+.column-main>p:nth-child(4){
+    padding-top: 40px;
 }
 
 .column-main>p:nth-child(5){
-    padding-bottom:35px;
+    padding-bottom:10px;
 }
 
 .column-main button{
     padding: 9px 60px;
     font-size: 15px;
+    font-weight: 400;
 }
 
 .column-main a{
     text-decoration: underline;
     color: rgb(0, 150, 250);
-    font-size: 15px;
+    font-size: 18px;
+    padding-bottom: 20px;
 }
 
 .column-footer>h4{
-    font-size:20px;
-    padding: 20px 0;
-    font-weight: 800;
+    font-size:23px;
+    padding: 30px 0 25px 0;
+    font-weight: 900;
 }
 
 .column-footer>li{
     list-style-type:none;
-    font-size: 15px;
-    padding: 10px 0;
+    font-size: 16px;
+    padding: 15px 0;
     display:inline-block;
     line-height: 15px;
 }
 
+/*FONT IMG PER LISTE NELLE COLONNE*/
 .column-footer i{
     color:rgb(0, 150, 250);
     padding-right: 5px;
     vertical-align: middle;
     line-height: 10px;
-}
-
-.column-footer>p{
-    padding-right: 10px;
 }
 
 .column-footer>li>div{
@@ -248,6 +271,7 @@ top:0;
     line-height: 20px;
 }
 
+/*SECOND MAIN SECTION*/
 .second-main-section{
     height: 240px;
     border:1px solid rgb(172, 172, 172);
@@ -267,22 +291,30 @@ top:0;
 }
 
 .container-content-second-main-section>h3{
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 900;
     padding-bottom: 30px;
 }
 
 .container-content-second-main-section>p{
+    font-size: 15px;
     padding-bottom: 30px;
+}
+
+.container-content-second-main-section>p:first-of-type{
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .container-content-second-main-section button{
     position:absolute;
     top:20px;
     right: 20px;
-    padding: 5px 40px;
-    font-size: 15px;
+    padding: 10px 40px;
+    font-size: 18px;
 }
 
+/*THIRD MAIN SECTION*/
 .third-main-section{
     height: 700px;
     position:relative;
@@ -307,24 +339,31 @@ top:0;
 .container-text-partner-dropbox>h3{
     font-size: 30px;
     padding-bottom: 20px;
+    font-weight: 900;
 }
 
 .container-text-partner-dropbox>p{
     font-size: 15px;
     padding-bottom: 20px;
+    line-height: 30px;
 }
 
 .container-text-partner-dropbox>button{
-    font-size: 15px;
+    font-size: 18px;
     padding:5px 20px;
     background-color: white;
     color:black;
     font-family:'Open Sans', sans-serif;
-    font-weight:800;
+    font-weight:500;
 }
 
+/*ROW SECTION FOURTH MAIN SECTION*/
 .row-container{
     height: 1000px;
+}
+
+.container-img-text-row{
+    padding-bottom: 500px;
 }
 
 .row-container>h2{
@@ -349,15 +388,16 @@ top:0;
 
 .container-text-row>h3{
     font-size:25px;
+    font-weight: 900;
     padding-bottom: 10px;
     font-weight: 900;
 }
 
 .container-text-row>p{
-    font-size: 15px;
+    font-size: 18px;
 }
 
-/*Background images row*/
+/*Background images row in fourt main section*/
 .bg-one-row{
     background-image: url(../img/business-feature-switching-tools.png);
 }
@@ -382,8 +422,15 @@ top:0;
     background-image: url(../img/business-feature-security.png);
 }
 
+/*FIFTH MAIN SECTION*/
 .title-team-use-dropbox{
     padding-top:100px;
+}
+
+.title-team-use-dropbox>h2{
+    font-size: 45px;
+    font-weight: 900;
+    padding-top: 100px;
 }
 
 .title-team-use-dropbox>a{
@@ -392,13 +439,13 @@ top:0;
     text-decoration: underline;
 }
 
-.container-float-fourth-main-section{
+.container-float-fifth-main-section{
     height: 500px;
     background-color: rgb(245, 237, 237);
     position:relative;
 }
 
-.container-float-fourth-main-section img{
+.container-float-fifth-main-section img{
     width:60%;
     height: 80%;
     position:absolute;
@@ -574,6 +621,7 @@ top:0;
     list-style-type: none;
     padding-bottom: 10px;
     font-weight: 200;
+    display: block;
 }
 
 .float-footer-container{
