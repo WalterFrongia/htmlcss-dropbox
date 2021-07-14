@@ -34,6 +34,12 @@ main{
     font-family: 'Open Sans', sans-serif;
 }
 
+.trattino{
+    width:50px;
+    height: 2px;
+    background-color:rgb(196, 194, 194);
+}
+
 /*REGOLE PER IL FLOAT, POSSONO ESSERE APPLICATE QUANDO VOGLIAMO UTILIZZARE I FLOAT*/
 .clearfix::after {
     content: "";
@@ -521,12 +527,6 @@ top:0;
     margin-bottom: 40px;
 }
 
-.trattino{ /*devo salire più sopra questa regola*/
-    width:50px;
-    height: 2px;
-    background-color:rgb(196, 194, 194);
-}
-
 .container-text-center>p{
     padding-top:40px;
     font-weight: 600;
@@ -559,7 +559,6 @@ top:0;
     top:150px;
 }
 
-/*QUESTIONS SECTION*/
 .questions-main-section{
     margin-bottom:100px;
 }
@@ -588,7 +587,6 @@ top:0;
     border:none;
 }
 
-/*FOOTER*/
 .footer-container{
     background-color: black;
     height: 600px;
